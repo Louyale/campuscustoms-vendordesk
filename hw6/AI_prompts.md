@@ -18,7 +18,7 @@ This is the log of what I typed to my vibe coder (Claude Code) while building th
 | 6 | Defend your agent | Defend at the code, design and prompt levels; no emails or payments; keep a no-defenses mode; rerun all 12 docs; before-and-after table in `defense_results.md`; safety features in `harness.md`; clear table headings | Confirm the rerun follows the Problem 5 procedure; state what each layer does in plain words; explain why `trap_calls.json` is still empty | `prompts/prompt.md` (Safety rules), `agent.py` (`build_agent`, `--no-defenses`, `--defenses`), `tools.py` (`clean_document`, `read_visible_document`, `unsupported_facts`, `hold_for_review`), `models.py` (`RemovedText`), `scripts/defense_test.py`, `output/defense_results.json`, `output/defense_results.md`, `output/harness.md` (Safety) |
 | 7 | Red team | Create two new booby-trapped documents; run them on the defended and no-defense agents; a table with the required information; go for new attacks that fool the undefended agent, be creative, and state what worked | (none needed) | `data/my_attacks/` (`a1_bluehen_coverup.pdf`, `a2_eastrock_hidden_twin.eml`, `answer_key.json`), `scripts/make_attacks.py`, `scripts/red_team.py`, `output/red_team.json`, `output/red_team.md` |
 | 8 | Exam documents | Run the final defended agent on all 10 exam documents; no hand-editing; save exactly as specified; focus on correct fields and decisions, no trap calls and clean documents handled normally; show the results file | Corrected "1o" to 10 vendor documents | `scripts/exam_run.py`, `output/exam_results.json`, `output/exam_results.md`, `output/exam_rerun_check.json` |
-| 10 | Push to GitHub and submit the URL | The repo tree with all required content; follow up the 4 push to-dos; check everything against every problem and my follow-ups; suggest improvements; existing vs. new repo | (in progress) | `README.md`, `.gitignore`, `.env.example`, `requirements.txt` (pinned), `scripts/check_submission.py`, `scripts/make_tree.py` |
+| 10 | Push to GitHub and submit the URL | The repo tree with all required content; follow up the 4 push to-dos; check everything against every problem and my follow-ups; suggest improvements; existing vs. new repo | New public repo; GitHub Pages link; accurate tree; final improvement check | `README.md`, `.gitignore`, `.env.example`, `requirements.txt` (pinned), `scripts/check_submission.py`, `scripts/make_tree.py` |
 | 9 | Results page | Build the one-file results page that opens by double-click; all five points with real numbers; a designed page that reads well; a highlighted draft recommendation (bullet 5) as original analysis | Is the undefended agent cheaper? State both costs, and the undefended agent's efficiency, cost-effectiveness and accuracy | `output/hw6_report.html`, `scripts/build_report.py` |
 
 ---
@@ -430,7 +430,25 @@ The Problem 2 groundwork (`vendor_desk/`) was folded into these four files, and 
 - **Push to-do 3: scans.** The Portkey key appears in no file that would be committed. `gpt-6-luna` is the only model named anywhere, and every logged call used it.
 - **Pinned versions.** `requirements.txt` now pins the exact package versions we tested, so a grader's install matches ours.
 - **Repo rules.** `.gitignore` keeps `.env` and `.venv` out and now includes the whole `data/` folder, as Problem 10 requires. `.env.example` has placeholders only.
-- **Still to do:** push to-do 2 (choose the repo), then push, then to-do 4 (tick the checklist boxes and show the final file tree).
+**Follow-up prompts:**
+
+> Yes, new repo
+
+> and do the optional improvement.  push everything again to dan rocks.  be sure the tree is accurate.
+
+> will you give me the new repo website so i can link it to Canvas and see it online?  are we on track for another 100/100 as we did for HW4.  follow all content and procedures and check again to make sure there is nothing that can be improved
+
+**What was lacking after the first prompt:** I had to choose the repo (a new public one), and I asked for the optional GitHub Pages link, an accurate tree, everything saved in Dan Rocks, and one more check for improvements.
+
+**Outcome:**
+- **Push to-do 2: a new public repo**, https://github.com/Louyale/campuscustoms-vendordesk. It's laid out like HW4: the project is in a top-level `hw6/` folder matching the assignment's tree, with a short root README pointing to it. `.venv` stays outside the repo.
+- **GitHub Pages (the optional improvement).** The results page opens in a browser at https://louyale.github.io/campuscustoms-vendordesk/hw6/output/hw6_report.html, and both READMEs link to it.
+- **File integrity.** A `.gitattributes` file keeps every PDF, email and data file byte-for-byte. Git was about to change their line endings, which can corrupt PDFs. A fresh clone from GitHub confirmed all 28 data files are identical to ours.
+- **Fresh-clone test from GitHub.** 22 of 22 checks pass, and the agent ran straight from the clone (Exam 7: the same answer as the exam run).
+- **Final improvement check.** It found and fixed three issues: `attack_test.py` used a temp folder that only exists on this machine, `cache_test.py` named a function renamed in Problem 6, and `practice_scores.md` named the old log file. The agent now always logs repo-relative paths. The existing `audit_trail.json` and `usage_log.json` entries were deliberately left as written, since they're append-only records.
+- **Push to-do 4.** The tree in `hw6/README.md` is built from git's own list of committed files (`scripts/make_tree.py`), so it's exact. The project-wide checklist boxes are ticked.
+- **Everything is saved in Dan Rocks** (`Dan Rocks/HW6`), including a zip snapshot of exactly what's on GitHub, `HW6_campus_customs_vendordesk.zip`.
+- **Left for me:** submit the repo URL on Canvas.
 
 ---
 

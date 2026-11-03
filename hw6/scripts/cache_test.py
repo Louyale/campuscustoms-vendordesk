@@ -3,7 +3,7 @@
 Runs the vendor desk agent on all 12 practice documents in two setups:
 
 - without_cache: every request opens with a fresh random tag, so nothing can
-  be reused from the prompt cache (agent.py, no_cache_agent)
+  be reused from the prompt cache (agent.py, build_agent(..., setup="without_cache"))
 - with_cache: the normal agent, whose prompt.md + handbook prefix is reused
 
 Every model call (each run makes 2: one to ask for read_document, one to

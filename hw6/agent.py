@@ -248,6 +248,8 @@ async def review(path: str | Path, label: str = "agent", setup: str = "with_cach
                  defenses: frozenset = ALL_DEFENSES) -> tuple[VendorReport, CallUsage]:
     """Review one vendor document: the model reads it with the tool, the checks decide."""
     path = Path(path)
+    if path.is_absolute() and path.resolve().is_relative_to(ROOT):
+        path = path.resolve().relative_to(ROOT)  # logs always show repo-relative paths
     defenses = frozenset(defenses)
     start = time.perf_counter()
     result = await build_agent(defenses, setup).run(f"Review this vendor document: {path.as_posix()}")

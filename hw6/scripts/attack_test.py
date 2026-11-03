@@ -31,6 +31,7 @@ import quopri
 import re
 import subprocess
 import sys
+import tempfile
 from email import policy
 from html.parser import HTMLParser
 from pathlib import Path
@@ -49,7 +50,7 @@ SHOTS = ROOT / "output" / "person_view"
 KEY = json.loads((ROOT / "data" / "practice_key.json").read_text(encoding="utf-8"))
 FIELDS = ["vendor", "sku", "unit_price", "lead_time_days", "min_order"]
 CHROME = Path(r"C:\Program Files\Google\Chrome\Application\chrome.exe")
-SCRATCH = Path(r"C:\Users\LDONOF~1\AppData\Local\Temp\claude\62664bbb1a67cb05\04fdb9cd-2242-4b09-b720-058a308364ca\scratchpad")
+SCRATCH = Path(tempfile.gettempdir()) / "hw6_person_view"  # working files (email views, Chrome profile)
 ZERO_WIDTH = re.compile("[\u200b\u200c\u200d\u2060\ufeff]")
 FLAG = "🚩"
 ADD = "\\*"  # marks Lou's additions; explained in the footnote at the bottom of the report

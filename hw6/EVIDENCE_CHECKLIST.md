@@ -8,12 +8,15 @@ This file lists the evidence each problem needs. Each problem's evidence is adde
 - [x] A row in the "At a glance" table
 
 ## Project-wide rules
-- [ ] Only `gpt-6-luna` appears in the code and in run logs (a search of the repo for other model names comes back clean)
-- [ ] Every AI call goes through `PORTKEY_API_KEY`
-- [ ] `send_email` and `make_payment` only write to a log file; nothing is really sent or paid
-- [ ] `.env` is not committed (`.env.example` holds variable names only)
-- [ ] Public GitHub repo, URL submitted on Canvas, file tree shown in the last problem
-- [ ] `README.md` has the setup and run steps for the grader: create and activate `.venv` (`.venv\Scripts\activate`), `pip install -r requirements.txt`, copy `.env.example` to `.env` and add `PORTKEY_API_KEY`, then `python agent.py --doc data/practice_docs/p01_bluehen_quote.html`
+- [x] Only `gpt-6-luna` appears in the code and in run logs (`scripts/check_submission.py`: a search of every committed file finds no other model name, and every logged call used gpt-6-luna)
+- [x] Every AI call goes through `PORTKEY_API_KEY` (`agent.py` `build_model`, Portkey base URL)
+- [x] `send_email` and `approve_payment` only write to a log file; nothing is really sent or paid (`output/trap_calls.json` is still `[]`)
+- [x] `.env` is not committed (`.gitignore`), and `.env.example` holds placeholders only
+- [x] Public GitHub repo: https://github.com/Louyale/campuscustoms-vendordesk (project in `hw6/`; results page also at https://louyale.github.io/campuscustoms-vendordesk/hw6/output/hw6_report.html)
+- [ ] Repo URL submitted on Canvas (my step)
+- [x] File tree shown in the last problem (`README.md`, built from git's own file list)
+- [x] `README.md` has the setup and run steps for the grader: create and activate `.venv`, `pip install -r requirements.txt` (versions pinned), copy `.env.example` to `.env` and add `PORTKEY_API_KEY`, then `python agent.py --doc data/practice_docs/p01_bluehen_quote.html`
+- [x] Fresh clone from GitHub tested: data files byte-for-byte identical, 22 of 22 checks pass, and the agent runs
 
 ## Problem 1: Vibe coder prompts (5 points)
 - [x] `AI_prompts.md` created at the start of the assignment and kept up to date
@@ -100,3 +103,11 @@ This file lists the evidence each problem needs. Each problem's evidence is adde
 - [x] Real numbers from earlier problems (read from the results files by `scripts/build_report.py`)
 - [x] Designed page: fonts, color, layout (Campus Customs Yale palette; chart colors passed the palette check)
 - [x] I've reviewed and adjusted the draft, especially the section 5 recommendation (badge now reads "Analysis"); attacks rerun and all 12 practice documents still 12 of 12 (`output/red_team.md`, Tables 7–8)
+
+## Problem 10: Push to GitHub and submit the URL (5 points)
+- [x] Project pushed to a public GitHub repo; graders can clone it and it opens with the expected files
+- [x] The whole `data/` folder is included (course data plus our two attack files)
+- [x] The real `.env` isn't committed: `.gitignore` keeps it out, and `.env.example` has placeholders only
+- [x] The repo matches the expected `hw6/` tree (other Python files are in `scripts/`)
+- [x] `README.md` has a short note on how to run the agent
+- [ ] Repo URL submitted on Canvas: https://github.com/Louyale/campuscustoms-vendordesk (my step)
