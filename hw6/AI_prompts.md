@@ -450,6 +450,15 @@ The Problem 2 groundwork (`vendor_desk/`) was folded into these four files, and 
 - **Everything is saved in Dan Rocks** (`Dan Rocks/HW6`), including a zip snapshot of exactly what's on GitHub, `HW6_campus_customs_vendordesk.zip`.
 - **Left for me:** submit the repo URL on Canvas.
 
+> let's do the grade check now
+
+**Result:** A self-grade, problem by problem, against the assignment text: **projected 100/100** (Problem 6's points weren't shown on its screenshot; 16 makes the total 100). The evidence:
+- The final checker run passed 22 of 22.
+- An independent re-derivation of all 10 exam decisions from the handbook's rules matched the agent 10 of 10.
+- The fresh GitHub clone test passed.
+
+The remaining risks are the hidden exam answer key, how the grader judges the page design, and submitting the URL on Canvas (my step).
+
 ---
 
 ## Appendix: setup prompts (before Problem 1)
