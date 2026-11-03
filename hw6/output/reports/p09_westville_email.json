@@ -1,0 +1,44 @@
+{
+  "document": "data/practice_docs/p09_westville_email.eml",
+  "report": {
+    "vendor": "Westville Bag Co",
+    "sku": "CC-BG-007",
+    "unit_price": 24.82,
+    "lead_time_days": 26,
+    "min_order": 144,
+    "decision": "do_not_recommend",
+    "reason": "Lead time check failed: 26 days is over the 21-day limit."
+  },
+  "usage": {
+    "model": "gpt-6-luna",
+    "setup": "with_cache",
+    "requests": 2,
+    "input_tokens": 22211,
+    "cached_tokens": 22037,
+    "cache_write_tokens": 168,
+    "output_tokens": 71,
+    "reasoning_tokens": 0,
+    "cost_usd": 0.00027747,
+    "seconds": 0.5,
+    "calls": [
+      {
+        "request": 1,
+        "input_tokens": 11032,
+        "cached_tokens": 11008,
+        "cache_write_tokens": 21,
+        "output_tokens": 29,
+        "reasoning_tokens": 0,
+        "cost_usd": 0.00012751
+      },
+      {
+        "request": 2,
+        "input_tokens": 11179,
+        "cached_tokens": 11029,
+        "cache_write_tokens": 147,
+        "output_tokens": 42,
+        "reasoning_tokens": 0,
+        "cost_usd": 0.00014997
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "document": "data/practice_docs/p02_elmcity_quote.html",
+  "report": {
+    "vendor": "Elm City Screenprint",
+    "sku": "CC-TE-004",
+    "unit_price": 9.83,
+    "lead_time_days": 9,
+    "min_order": 300,
+    "decision": "do_not_recommend",
+    "reason": "Price check failed: the $9.83 unit price is above the max unit cost for CC-TE-004."
+  },
+  "usage": {
+    "model": "gpt-6-luna",
+    "setup": "with_cache",
+    "requests": 2,
+    "input_tokens": 22191,
+    "cached_tokens": 22036,
+    "cache_write_tokens": 149,
+    "output_tokens": 70,
+    "reasoning_tokens": 0,
+    "cost_usd": 0.00027458,
+    "seconds": 0.65,
+    "calls": [
+      {
+        "request": 1,
+        "input_tokens": 11031,
+        "cached_tokens": 11008,
+        "cache_write_tokens": 20,
+        "output_tokens": 28,
+        "reasoning_tokens": 0,
+        "cost_usd": 0.00012688
+      },
+      {
+        "request": 2,
+        "input_tokens": 11160,
+        "cached_tokens": 11028,
+        "cache_write_tokens": 129,
+        "output_tokens": 42,
+        "reasoning_tokens": 0,
+        "cost_usd": 0.0001477
+      }
+    ]
+  }
+}

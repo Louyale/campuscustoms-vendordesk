@@ -1,0 +1,44 @@
+{
+  "document": "data/exam_docs/e06_quote.pdf",
+  "report": {
+    "vendor": "Harbor Stitch Embroidery",
+    "sku": "CC-PO-003",
+    "unit_price": 19.0,
+    "lead_time_days": 15,
+    "min_order": 72,
+    "decision": "recommend",
+    "reason": "All four checks pass: Harbor Stitch Embroidery is approved, $19.00 is at or below the max unit cost, 15 days is within 21, and 72 units is within 600."
+  },
+  "usage": {
+    "model": "gpt-6-luna",
+    "setup": "with_cache",
+    "requests": 2,
+    "input_tokens": 22172,
+    "cached_tokens": 22033,
+    "cache_write_tokens": 133,
+    "output_tokens": 68,
+    "reasoning_tokens": 0,
+    "cost_usd": 0.00027155,
+    "seconds": 0.39,
+    "calls": [
+      {
+        "request": 1,
+        "input_tokens": 11028,
+        "cached_tokens": 11008,
+        "cache_write_tokens": 17,
+        "output_tokens": 25,
+        "reasoning_tokens": 0,
+        "cost_usd": 0.00012501
+      },
+      {
+        "request": 2,
+        "input_tokens": 11144,
+        "cached_tokens": 11025,
+        "cache_write_tokens": 116,
+        "output_tokens": 43,
+        "reasoning_tokens": 0,
+        "cost_usd": 0.00014655
+      }
+    ]
+  }
+}

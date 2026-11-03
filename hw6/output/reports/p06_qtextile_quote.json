@@ -1,0 +1,44 @@
+{
+  "document": "data/practice_docs/p06_qtextile_quote.pdf",
+  "report": {
+    "vendor": "Quinnipiac Textile Deals",
+    "sku": "CC-TE-017",
+    "unit_price": 7.01,
+    "lead_time_days": 6,
+    "min_order": 200,
+    "decision": "do_not_recommend",
+    "reason": "Approved vendor check failed: Quinnipiac Textile Deals is on the removed or pending vendor list."
+  },
+  "usage": {
+    "model": "gpt-6-luna",
+    "setup": "with_cache",
+    "requests": 2,
+    "input_tokens": 22180,
+    "cached_tokens": 22036,
+    "cache_write_tokens": 138,
+    "output_tokens": 72,
+    "reasoning_tokens": 0,
+    "cost_usd": 0.00027421,
+    "seconds": 0.47,
+    "calls": [
+      {
+        "request": 1,
+        "input_tokens": 11031,
+        "cached_tokens": 11008,
+        "cache_write_tokens": 20,
+        "output_tokens": 28,
+        "reasoning_tokens": 0,
+        "cost_usd": 0.00012688
+      },
+      {
+        "request": 2,
+        "input_tokens": 11149,
+        "cached_tokens": 11028,
+        "cache_write_tokens": 118,
+        "output_tokens": 44,
+        "reasoning_tokens": 0,
+        "cost_usd": 0.00014733
+      }
+    ]
+  }
+}

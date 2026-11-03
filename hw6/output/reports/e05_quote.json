@@ -1,0 +1,44 @@
+{
+  "document": "data/exam_docs/e05_quote.pdf",
+  "report": {
+    "vendor": "Maple Leaf Mills",
+    "sku": "CC-WV-003",
+    "unit_price": 36.68,
+    "lead_time_days": 18,
+    "min_order": 80,
+    "decision": "do_not_recommend",
+    "reason": "Price check failed: the $36.68 unit price is above the max unit cost for CC-WV-003."
+  },
+  "usage": {
+    "model": "gpt-6-luna",
+    "setup": "with_cache",
+    "requests": 2,
+    "input_tokens": 22171,
+    "cached_tokens": 22033,
+    "cache_write_tokens": 132,
+    "output_tokens": 67,
+    "reasoning_tokens": 0,
+    "cost_usd": 0.00027093,
+    "seconds": 0.39,
+    "calls": [
+      {
+        "request": 1,
+        "input_tokens": 11028,
+        "cached_tokens": 11008,
+        "cache_write_tokens": 17,
+        "output_tokens": 25,
+        "reasoning_tokens": 0,
+        "cost_usd": 0.00012501
+      },
+      {
+        "request": 2,
+        "input_tokens": 11143,
+        "cached_tokens": 11025,
+        "cache_write_tokens": 115,
+        "output_tokens": 42,
+        "reasoning_tokens": 0,
+        "cost_usd": 0.00014592
+      }
+    ]
+  }
+}

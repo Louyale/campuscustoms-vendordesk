@@ -1,0 +1,44 @@
+{
+  "document": "data/practice_docs/p01_bluehen_quote.html",
+  "report": {
+    "vendor": "Blue Hen Apparel",
+    "sku": "CC-HD-006",
+    "unit_price": 21.8,
+    "lead_time_days": 14,
+    "min_order": 240,
+    "decision": "recommend",
+    "reason": "All four checks pass: Blue Hen Apparel is approved, $21.80 is at or below the max unit cost, 14 days is within 21, and 240 units is within 600."
+  },
+  "usage": {
+    "model": "gpt-6-luna",
+    "setup": "with_cache",
+    "requests": 2,
+    "input_tokens": 22218,
+    "cached_tokens": 11027,
+    "cache_write_tokens": 11185,
+    "output_tokens": 67,
+    "reasoning_tokens": 0,
+    "cost_usd": 0.0015425,
+    "seconds": 0.4,
+    "calls": [
+      {
+        "request": 1,
+        "input_tokens": 11030,
+        "cached_tokens": 0,
+        "cache_write_tokens": 11027,
+        "output_tokens": 27,
+        "reasoning_tokens": 0,
+        "cost_usd": 0.00139218
+      },
+      {
+        "request": 2,
+        "input_tokens": 11188,
+        "cached_tokens": 11027,
+        "cache_write_tokens": 158,
+        "output_tokens": 40,
+        "reasoning_tokens": 0,
+        "cost_usd": 0.00015032
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "document": "data/practice_docs/p08_chapelst_email.eml",
+  "report": {
+    "vendor": "Chapel Street Goods",
+    "sku": "CC-PG-010",
+    "unit_price": 4.27,
+    "lead_time_days": 6,
+    "min_order": 250,
+    "decision": "recommend",
+    "reason": "All four checks pass: Chapel Street Goods is approved, $4.27 is at or below the max unit cost, 6 days is within 21, and 250 units is within 600."
+  },
+  "usage": {
+    "model": "gpt-6-luna",
+    "setup": "with_cache",
+    "requests": 2,
+    "input_tokens": 22215,
+    "cached_tokens": 22037,
+    "cache_write_tokens": 172,
+    "output_tokens": 71,
+    "reasoning_tokens": 0,
+    "cost_usd": 0.00027797,
+    "seconds": 0.48,
+    "calls": [
+      {
+        "request": 1,
+        "input_tokens": 11032,
+        "cached_tokens": 11008,
+        "cache_write_tokens": 21,
+        "output_tokens": 29,
+        "reasoning_tokens": 0,
+        "cost_usd": 0.00012751
+      },
+      {
+        "request": 2,
+        "input_tokens": 11183,
+        "cached_tokens": 11029,
+        "cache_write_tokens": 151,
+        "output_tokens": 42,
+        "reasoning_tokens": 0,
+        "cost_usd": 0.00015046
+      }
+    ]
+  }
+}

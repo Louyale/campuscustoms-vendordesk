@@ -1,0 +1,44 @@
+{
+  "document": "data/exam_docs/e01_quote.html",
+  "report": {
+    "vendor": "Westville Bag Co",
+    "sku": "CC-BG-003",
+    "unit_price": 26.07,
+    "lead_time_days": 10,
+    "min_order": 200,
+    "decision": "recommend",
+    "reason": "All four checks pass: Westville Bag Co is approved, $26.07 is at or below the max unit cost, 10 days is within 21, and 200 units is within 600."
+  },
+  "usage": {
+    "model": "gpt-6-luna",
+    "setup": "with_cache",
+    "requests": 2,
+    "input_tokens": 22170,
+    "cached_tokens": 22033,
+    "cache_write_tokens": 131,
+    "output_tokens": 67,
+    "reasoning_tokens": 0,
+    "cost_usd": 0.0002708,
+    "seconds": 1.02,
+    "calls": [
+      {
+        "request": 1,
+        "input_tokens": 11028,
+        "cached_tokens": 11008,
+        "cache_write_tokens": 17,
+        "output_tokens": 25,
+        "reasoning_tokens": 0,
+        "cost_usd": 0.00012501
+      },
+      {
+        "request": 2,
+        "input_tokens": 11142,
+        "cached_tokens": 11025,
+        "cache_write_tokens": 114,
+        "output_tokens": 42,
+        "reasoning_tokens": 0,
+        "cost_usd": 0.0001458
+      }
+    ]
+  }
+}

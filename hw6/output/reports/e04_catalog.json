@@ -1,0 +1,44 @@
+{
+  "document": "data/exam_docs/e04_catalog.html",
+  "report": {
+    "vendor": "Ivy Print Co",
+    "sku": "CC-PG-007",
+    "unit_price": 4.13,
+    "lead_time_days": 8,
+    "min_order": 200,
+    "decision": "do_not_recommend",
+    "reason": "Approved vendor check failed: Ivy Print Co is on the removed or pending vendor list."
+  },
+  "usage": {
+    "model": "gpt-6-luna",
+    "setup": "with_cache",
+    "requests": 2,
+    "input_tokens": 22187,
+    "cached_tokens": 22033,
+    "cache_write_tokens": 148,
+    "output_tokens": 67,
+    "reasoning_tokens": 0,
+    "cost_usd": 0.00027293,
+    "seconds": 0.46,
+    "calls": [
+      {
+        "request": 1,
+        "input_tokens": 11028,
+        "cached_tokens": 11008,
+        "cache_write_tokens": 17,
+        "output_tokens": 25,
+        "reasoning_tokens": 0,
+        "cost_usd": 0.00012501
+      },
+      {
+        "request": 2,
+        "input_tokens": 11159,
+        "cached_tokens": 11025,
+        "cache_write_tokens": 131,
+        "output_tokens": 42,
+        "reasoning_tokens": 0,
+        "cost_usd": 0.00014793
+      }
+    ]
+  }
+}

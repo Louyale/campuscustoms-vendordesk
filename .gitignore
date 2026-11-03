@@ -1,0 +1,12 @@
+# Secrets (hw6/.gitignore also keeps hw6/.env out)
+.env
+.env.*
+!.env.example
+
+# Local environment
+.venv/
+__pycache__/
+*.pyc
+
+# Local snapshot of the repo
+*.zip

@@ -1,0 +1,6 @@
+# Keep vendor documents and screenshots byte-for-byte: no line-ending changes, which would corrupt PDFs
+# and alter the exact email and HTML files the graders' answer key is based on.
+*.pdf binary
+*.png binary
+*.eml -text
+hw6/data/** -text

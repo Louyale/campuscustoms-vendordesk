@@ -1,0 +1,44 @@
+{
+  "document": "data/practice_docs/p04_harborstitch_quote.html",
+  "report": {
+    "vendor": "Harbor Stitch Embroidery",
+    "sku": "CC-HT-001",
+    "unit_price": 8.68,
+    "lead_time_days": 16,
+    "min_order": 120,
+    "decision": "recommend",
+    "reason": "All four checks pass: Harbor Stitch Embroidery is approved, $8.68 is at or below the max unit cost, 16 days is within 21, and 120 units is within 600."
+  },
+  "usage": {
+    "model": "gpt-6-luna",
+    "setup": "with_cache",
+    "requests": 2,
+    "input_tokens": 22211,
+    "cached_tokens": 22038,
+    "cache_write_tokens": 167,
+    "output_tokens": 73,
+    "reasoning_tokens": 0,
+    "cost_usd": 0.00027835,
+    "seconds": 0.51,
+    "calls": [
+      {
+        "request": 1,
+        "input_tokens": 11033,
+        "cached_tokens": 11008,
+        "cache_write_tokens": 22,
+        "output_tokens": 30,
+        "reasoning_tokens": 0,
+        "cost_usd": 0.00012813
+      },
+      {
+        "request": 2,
+        "input_tokens": 11178,
+        "cached_tokens": 11030,
+        "cache_write_tokens": 145,
+        "output_tokens": 43,
+        "reasoning_tokens": 0,
+        "cost_usd": 0.00015023
+      }
+    ]
+  }
+}

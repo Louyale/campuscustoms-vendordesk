@@ -1,0 +1,44 @@
+{
+  "document": "data/practice_docs/p12_bluehen_quote.pdf",
+  "report": {
+    "vendor": "Blue Hen Apparel",
+    "sku": "CC-CR-010",
+    "unit_price": 27.72,
+    "lead_time_days": 13,
+    "min_order": 200,
+    "decision": "do_not_recommend",
+    "reason": "Price check failed: the $27.72 unit price is above the max unit cost for CC-CR-010."
+  },
+  "usage": {
+    "model": "gpt-6-luna",
+    "setup": "with_cache",
+    "requests": 2,
+    "input_tokens": 22171,
+    "cached_tokens": 22035,
+    "cache_write_tokens": 130,
+    "output_tokens": 68,
+    "reasoning_tokens": 0,
+    "cost_usd": 0.0002712,
+    "seconds": 0.46,
+    "calls": [
+      {
+        "request": 1,
+        "input_tokens": 11030,
+        "cached_tokens": 11008,
+        "cache_write_tokens": 19,
+        "output_tokens": 27,
+        "reasoning_tokens": 0,
+        "cost_usd": 0.00012626
+      },
+      {
+        "request": 2,
+        "input_tokens": 11141,
+        "cached_tokens": 11027,
+        "cache_write_tokens": 111,
+        "output_tokens": 41,
+        "reasoning_tokens": 0,
+        "cost_usd": 0.00014495
+      }
+    ]
+  }
+}

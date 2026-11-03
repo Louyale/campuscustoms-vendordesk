@@ -1,0 +1,44 @@
+{
+  "document": "data/exam_docs/e07_quote.pdf",
+  "report": {
+    "vendor": "Long Wharf Knitting",
+    "sku": "CC-KN-002",
+    "unit_price": 14.47,
+    "lead_time_days": 14,
+    "min_order": 1000,
+    "decision": "do_not_recommend",
+    "reason": "Minimum order check failed: 1000 units is over the 600-unit limit."
+  },
+  "usage": {
+    "model": "gpt-6-luna",
+    "setup": "with_cache",
+    "requests": 2,
+    "input_tokens": 22166,
+    "cached_tokens": 22033,
+    "cache_write_tokens": 127,
+    "output_tokens": 68,
+    "reasoning_tokens": 0,
+    "cost_usd": 0.0002708,
+    "seconds": 0.47,
+    "calls": [
+      {
+        "request": 1,
+        "input_tokens": 11028,
+        "cached_tokens": 11008,
+        "cache_write_tokens": 17,
+        "output_tokens": 25,
+        "reasoning_tokens": 0,
+        "cost_usd": 0.00012501
+      },
+      {
+        "request": 2,
+        "input_tokens": 11138,
+        "cached_tokens": 11025,
+        "cache_write_tokens": 110,
+        "output_tokens": 43,
+        "reasoning_tokens": 0,
+        "cost_usd": 0.0001458
+      }
+    ]
+  }
+}

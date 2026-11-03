@@ -1,0 +1,56 @@
+{
+  "generated": "2026-11-03T22:48:34+00:00",
+  "rerun_matches_official": 10,
+  "files": [
+    {
+      "file": "e01_quote.html",
+      "same": true,
+      "differences": {}
+    },
+    {
+      "file": "e02_quote.html",
+      "same": true,
+      "differences": {}
+    },
+    {
+      "file": "e03_quote.html",
+      "same": true,
+      "differences": {}
+    },
+    {
+      "file": "e04_catalog.html",
+      "same": true,
+      "differences": {}
+    },
+    {
+      "file": "e05_quote.pdf",
+      "same": true,
+      "differences": {}
+    },
+    {
+      "file": "e06_quote.pdf",
+      "same": true,
+      "differences": {}
+    },
+    {
+      "file": "e07_quote.pdf",
+      "same": true,
+      "differences": {}
+    },
+    {
+      "file": "e08_email.eml",
+      "same": true,
+      "differences": {}
+    },
+    {
+      "file": "e09_email.eml",
+      "same": true,
+      "differences": {}
+    },
+    {
+      "file": "e10_email.eml",
+      "same": true,
+      "differences": {}
+    }
+  ]
+}

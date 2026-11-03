@@ -1,0 +1,44 @@
+{
+  "document": "data/exam_docs/e02_quote.html",
+  "report": {
+    "vendor": "Elm City Screenprint",
+    "sku": "CC-CR-010",
+    "unit_price": 29.63,
+    "lead_time_days": 13,
+    "min_order": 250,
+    "decision": "do_not_recommend",
+    "reason": "Price check failed: the $29.63 unit price is above the max unit cost for CC-CR-010."
+  },
+  "usage": {
+    "model": "gpt-6-luna",
+    "setup": "with_cache",
+    "requests": 2,
+    "input_tokens": 22191,
+    "cached_tokens": 22033,
+    "cache_write_tokens": 152,
+    "output_tokens": 67,
+    "reasoning_tokens": 0,
+    "cost_usd": 0.00027343,
+    "seconds": 0.46,
+    "calls": [
+      {
+        "request": 1,
+        "input_tokens": 11028,
+        "cached_tokens": 11008,
+        "cache_write_tokens": 17,
+        "output_tokens": 25,
+        "reasoning_tokens": 0,
+        "cost_usd": 0.00012501
+      },
+      {
+        "request": 2,
+        "input_tokens": 11163,
+        "cached_tokens": 11025,
+        "cache_write_tokens": 135,
+        "output_tokens": 42,
+        "reasoning_tokens": 0,
+        "cost_usd": 0.00014842
+      }
+    ]
+  }
+}

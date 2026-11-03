@@ -1,0 +1,1305 @@
+{
+  "generated": "2026-11-03T14:49:11+00:00",
+  "model": "gpt-6-luna",
+  "prices_per_1m": {
+    "input_per_1m": 0.1,
+    "cached_input_per_1m": 0.01,
+    "cache_write_per_1m": 0.125,
+    "output_per_1m": 0.5
+  },
+  "setups": {
+    "without_cache": "Every request opens with a fresh random tag, so no prefix repeats and nothing is reused from cache.",
+    "with_cache": "The normal agent: the prompt.md + handbook prefix is identical on every request and reused from cache."
+  },
+  "calls": [
+    {
+      "setup": "without_cache",
+      "document": "p01_bluehen_quote.html",
+      "request": 1,
+      "model": "gpt-6-luna",
+      "input_tokens": 10924,
+      "cached_tokens": 0,
+      "cache_write_tokens": 10921,
+      "uncached_input_tokens": 3,
+      "output_tokens": 41,
+      "reasoning_tokens": 0,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.0,
+        "cache_write": 0.00136513,
+        "output": 2.05e-05,
+        "total": 0.00138593
+      }
+    },
+    {
+      "setup": "without_cache",
+      "document": "p01_bluehen_quote.html",
+      "request": 2,
+      "model": "gpt-6-luna",
+      "input_tokens": 11395,
+      "cached_tokens": 0,
+      "cache_write_tokens": 11392,
+      "uncached_input_tokens": 3,
+      "output_tokens": 40,
+      "reasoning_tokens": 0,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.0,
+        "cache_write": 0.001424,
+        "output": 2e-05,
+        "total": 0.0014443
+      }
+    },
+    {
+      "setup": "without_cache",
+      "document": "p02_elmcity_quote.html",
+      "request": 1,
+      "model": "gpt-6-luna",
+      "input_tokens": 10926,
+      "cached_tokens": 0,
+      "cache_write_tokens": 10923,
+      "uncached_input_tokens": 3,
+      "output_tokens": 42,
+      "reasoning_tokens": 0,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.0,
+        "cache_write": 0.00136538,
+        "output": 2.1e-05,
+        "total": 0.00138667
+      }
+    },
+    {
+      "setup": "without_cache",
+      "document": "p02_elmcity_quote.html",
+      "request": 2,
+      "model": "gpt-6-luna",
+      "input_tokens": 11405,
+      "cached_tokens": 0,
+      "cache_write_tokens": 11402,
+      "uncached_input_tokens": 3,
+      "output_tokens": 89,
+      "reasoning_tokens": 45,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.0,
+        "cache_write": 0.00142525,
+        "output": 4.45e-05,
+        "total": 0.00147005
+      }
+    },
+    {
+      "setup": "without_cache",
+      "document": "p03_ivyprint_catalog.html",
+      "request": 1,
+      "model": "gpt-6-luna",
+      "input_tokens": 10929,
+      "cached_tokens": 0,
+      "cache_write_tokens": 10926,
+      "uncached_input_tokens": 3,
+      "output_tokens": 42,
+      "reasoning_tokens": 0,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.0,
+        "cache_write": 0.00136575,
+        "output": 2.1e-05,
+        "total": 0.00138705
+      }
+    },
+    {
+      "setup": "without_cache",
+      "document": "p03_ivyprint_catalog.html",
+      "request": 2,
+      "model": "gpt-6-luna",
+      "input_tokens": 11403,
+      "cached_tokens": 0,
+      "cache_write_tokens": 11400,
+      "uncached_input_tokens": 3,
+      "output_tokens": 42,
+      "reasoning_tokens": 0,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.0,
+        "cache_write": 0.001425,
+        "output": 2.1e-05,
+        "total": 0.0014463
+      }
+    },
+    {
+      "setup": "without_cache",
+      "document": "p04_harborstitch_quote.html",
+      "request": 1,
+      "model": "gpt-6-luna",
+      "input_tokens": 10926,
+      "cached_tokens": 0,
+      "cache_write_tokens": 10923,
+      "uncached_input_tokens": 3,
+      "output_tokens": 44,
+      "reasoning_tokens": 0,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.0,
+        "cache_write": 0.00136538,
+        "output": 2.2e-05,
+        "total": 0.00138768
+      }
+    },
+    {
+      "setup": "without_cache",
+      "document": "p04_harborstitch_quote.html",
+      "request": 2,
+      "model": "gpt-6-luna",
+      "input_tokens": 11424,
+      "cached_tokens": 0,
+      "cache_write_tokens": 11421,
+      "uncached_input_tokens": 3,
+      "output_tokens": 43,
+      "reasoning_tokens": 0,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.0,
+        "cache_write": 0.00142763,
+        "output": 2.15e-05,
+        "total": 0.00144943
+      }
+    },
+    {
+      "setup": "without_cache",
+      "document": "p05_maplemills_quote.pdf",
+      "request": 1,
+      "model": "gpt-6-luna",
+      "input_tokens": 10930,
+      "cached_tokens": 0,
+      "cache_write_tokens": 10927,
+      "uncached_input_tokens": 3,
+      "output_tokens": 42,
+      "reasoning_tokens": 0,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.0,
+        "cache_write": 0.00136587,
+        "output": 2.1e-05,
+        "total": 0.00138717
+      }
+    },
+    {
+      "setup": "without_cache",
+      "document": "p05_maplemills_quote.pdf",
+      "request": 2,
+      "model": "gpt-6-luna",
+      "input_tokens": 11072,
+      "cached_tokens": 0,
+      "cache_write_tokens": 11069,
+      "uncached_input_tokens": 3,
+      "output_tokens": 42,
+      "reasoning_tokens": 0,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.0,
+        "cache_write": 0.00138363,
+        "output": 2.1e-05,
+        "total": 0.00140493
+      }
+    },
+    {
+      "setup": "without_cache",
+      "document": "p06_qtextile_quote.pdf",
+      "request": 1,
+      "model": "gpt-6-luna",
+      "input_tokens": 10926,
+      "cached_tokens": 0,
+      "cache_write_tokens": 10923,
+      "uncached_input_tokens": 3,
+      "output_tokens": 42,
+      "reasoning_tokens": 0,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.0,
+        "cache_write": 0.00136538,
+        "output": 2.1e-05,
+        "total": 0.00138667
+      }
+    },
+    {
+      "setup": "without_cache",
+      "document": "p06_qtextile_quote.pdf",
+      "request": 2,
+      "model": "gpt-6-luna",
+      "input_tokens": 11115,
+      "cached_tokens": 0,
+      "cache_write_tokens": 11112,
+      "uncached_input_tokens": 3,
+      "output_tokens": 44,
+      "reasoning_tokens": 0,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.0,
+        "cache_write": 0.001389,
+        "output": 2.2e-05,
+        "total": 0.0014113
+      }
+    },
+    {
+      "setup": "without_cache",
+      "document": "p07_longwharf_quote.pdf",
+      "request": 1,
+      "model": "gpt-6-luna",
+      "input_tokens": 10926,
+      "cached_tokens": 0,
+      "cache_write_tokens": 10923,
+      "uncached_input_tokens": 3,
+      "output_tokens": 42,
+      "reasoning_tokens": 0,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.0,
+        "cache_write": 0.00136538,
+        "output": 2.1e-05,
+        "total": 0.00138667
+      }
+    },
+    {
+      "setup": "without_cache",
+      "document": "p07_longwharf_quote.pdf",
+      "request": 2,
+      "model": "gpt-6-luna",
+      "input_tokens": 11089,
+      "cached_tokens": 0,
+      "cache_write_tokens": 11086,
+      "uncached_input_tokens": 3,
+      "output_tokens": 42,
+      "reasoning_tokens": 0,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.0,
+        "cache_write": 0.00138575,
+        "output": 2.1e-05,
+        "total": 0.00140705
+      }
+    },
+    {
+      "setup": "without_cache",
+      "document": "p08_chapelst_email.eml",
+      "request": 1,
+      "model": "gpt-6-luna",
+      "input_tokens": 10928,
+      "cached_tokens": 0,
+      "cache_write_tokens": 10925,
+      "uncached_input_tokens": 3,
+      "output_tokens": 43,
+      "reasoning_tokens": 0,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.0,
+        "cache_write": 0.00136563,
+        "output": 2.15e-05,
+        "total": 0.00138743
+      }
+    },
+    {
+      "setup": "without_cache",
+      "document": "p08_chapelst_email.eml",
+      "request": 2,
+      "model": "gpt-6-luna",
+      "input_tokens": 11125,
+      "cached_tokens": 0,
+      "cache_write_tokens": 11122,
+      "uncached_input_tokens": 3,
+      "output_tokens": 42,
+      "reasoning_tokens": 0,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.0,
+        "cache_write": 0.00139025,
+        "output": 2.1e-05,
+        "total": 0.00141155
+      }
+    },
+    {
+      "setup": "without_cache",
+      "document": "p09_westville_email.eml",
+      "request": 1,
+      "model": "gpt-6-luna",
+      "input_tokens": 10928,
+      "cached_tokens": 0,
+      "cache_write_tokens": 10925,
+      "uncached_input_tokens": 3,
+      "output_tokens": 43,
+      "reasoning_tokens": 0,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.0,
+        "cache_write": 0.00136563,
+        "output": 2.15e-05,
+        "total": 0.00138743
+      }
+    },
+    {
+      "setup": "without_cache",
+      "document": "p09_westville_email.eml",
+      "request": 2,
+      "model": "gpt-6-luna",
+      "input_tokens": 11444,
+      "cached_tokens": 0,
+      "cache_write_tokens": 11441,
+      "uncached_input_tokens": 3,
+      "output_tokens": 42,
+      "reasoning_tokens": 0,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.0,
+        "cache_write": 0.00143012,
+        "output": 2.1e-05,
+        "total": 0.00145142
+      }
+    },
+    {
+      "setup": "without_cache",
+      "document": "p10_eastrock_email.eml",
+      "request": 1,
+      "model": "gpt-6-luna",
+      "input_tokens": 10932,
+      "cached_tokens": 0,
+      "cache_write_tokens": 10929,
+      "uncached_input_tokens": 3,
+      "output_tokens": 43,
+      "reasoning_tokens": 0,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.0,
+        "cache_write": 0.00136612,
+        "output": 2.15e-05,
+        "total": 0.00138792
+      }
+    },
+    {
+      "setup": "without_cache",
+      "document": "p10_eastrock_email.eml",
+      "request": 2,
+      "model": "gpt-6-luna",
+      "input_tokens": 11146,
+      "cached_tokens": 0,
+      "cache_write_tokens": 11143,
+      "uncached_input_tokens": 3,
+      "output_tokens": 42,
+      "reasoning_tokens": 0,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.0,
+        "cache_write": 0.00139288,
+        "output": 2.1e-05,
+        "total": 0.00141417
+      }
+    },
+    {
+      "setup": "without_cache",
+      "document": "p11_yorkst_quote.html",
+      "request": 1,
+      "model": "gpt-6-luna",
+      "input_tokens": 10926,
+      "cached_tokens": 0,
+      "cache_write_tokens": 10923,
+      "uncached_input_tokens": 3,
+      "output_tokens": 42,
+      "reasoning_tokens": 0,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.0,
+        "cache_write": 0.00136538,
+        "output": 2.1e-05,
+        "total": 0.00138667
+      }
+    },
+    {
+      "setup": "without_cache",
+      "document": "p11_yorkst_quote.html",
+      "request": 2,
+      "model": "gpt-6-luna",
+      "input_tokens": 11377,
+      "cached_tokens": 0,
+      "cache_write_tokens": 11374,
+      "uncached_input_tokens": 3,
+      "output_tokens": 42,
+      "reasoning_tokens": 0,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.0,
+        "cache_write": 0.00142175,
+        "output": 2.1e-05,
+        "total": 0.00144305
+      }
+    },
+    {
+      "setup": "without_cache",
+      "document": "p12_bluehen_quote.pdf",
+      "request": 1,
+      "model": "gpt-6-luna",
+      "input_tokens": 10926,
+      "cached_tokens": 0,
+      "cache_write_tokens": 10923,
+      "uncached_input_tokens": 3,
+      "output_tokens": 41,
+      "reasoning_tokens": 0,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.0,
+        "cache_write": 0.00136538,
+        "output": 2.05e-05,
+        "total": 0.00138618
+      }
+    },
+    {
+      "setup": "without_cache",
+      "document": "p12_bluehen_quote.pdf",
+      "request": 2,
+      "model": "gpt-6-luna",
+      "input_tokens": 11087,
+      "cached_tokens": 0,
+      "cache_write_tokens": 11084,
+      "uncached_input_tokens": 3,
+      "output_tokens": 41,
+      "reasoning_tokens": 0,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.0,
+        "cache_write": 0.0013855,
+        "output": 2.05e-05,
+        "total": 0.0014063
+      }
+    },
+    {
+      "setup": "with_cache",
+      "document": "p01_bluehen_quote.html",
+      "request": 1,
+      "model": "gpt-6-luna",
+      "input_tokens": 10897,
+      "cached_tokens": 10861,
+      "cache_write_tokens": 33,
+      "uncached_input_tokens": 3,
+      "output_tokens": 41,
+      "reasoning_tokens": 0,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.00010861,
+        "cache_write": 4.13e-06,
+        "output": 2.05e-05,
+        "total": 0.00013354
+      }
+    },
+    {
+      "setup": "with_cache",
+      "document": "p01_bluehen_quote.html",
+      "request": 2,
+      "model": "gpt-6-luna",
+      "input_tokens": 11364,
+      "cached_tokens": 10894,
+      "cache_write_tokens": 467,
+      "uncached_input_tokens": 3,
+      "output_tokens": 40,
+      "reasoning_tokens": 0,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.00010894,
+        "cache_write": 5.838e-05,
+        "output": 2e-05,
+        "total": 0.00018761
+      }
+    },
+    {
+      "setup": "with_cache",
+      "document": "p02_elmcity_quote.html",
+      "request": 1,
+      "model": "gpt-6-luna",
+      "input_tokens": 10898,
+      "cached_tokens": 10861,
+      "cache_write_tokens": 34,
+      "uncached_input_tokens": 3,
+      "output_tokens": 42,
+      "reasoning_tokens": 0,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.00010861,
+        "cache_write": 4.25e-06,
+        "output": 2.1e-05,
+        "total": 0.00013416
+      }
+    },
+    {
+      "setup": "with_cache",
+      "document": "p02_elmcity_quote.html",
+      "request": 2,
+      "model": "gpt-6-luna",
+      "input_tokens": 11377,
+      "cached_tokens": 10895,
+      "cache_write_tokens": 479,
+      "uncached_input_tokens": 3,
+      "output_tokens": 42,
+      "reasoning_tokens": 0,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.00010895,
+        "cache_write": 5.987e-05,
+        "output": 2.1e-05,
+        "total": 0.00019012
+      }
+    },
+    {
+      "setup": "with_cache",
+      "document": "p03_ivyprint_catalog.html",
+      "request": 1,
+      "model": "gpt-6-luna",
+      "input_tokens": 10898,
+      "cached_tokens": 10861,
+      "cache_write_tokens": 34,
+      "uncached_input_tokens": 3,
+      "output_tokens": 42,
+      "reasoning_tokens": 0,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.00010861,
+        "cache_write": 4.25e-06,
+        "output": 2.1e-05,
+        "total": 0.00013416
+      }
+    },
+    {
+      "setup": "with_cache",
+      "document": "p03_ivyprint_catalog.html",
+      "request": 2,
+      "model": "gpt-6-luna",
+      "input_tokens": 11370,
+      "cached_tokens": 10895,
+      "cache_write_tokens": 472,
+      "uncached_input_tokens": 3,
+      "output_tokens": 42,
+      "reasoning_tokens": 0,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.00010895,
+        "cache_write": 5.9e-05,
+        "output": 2.1e-05,
+        "total": 0.00018925
+      }
+    },
+    {
+      "setup": "with_cache",
+      "document": "p04_harborstitch_quote.html",
+      "request": 1,
+      "model": "gpt-6-luna",
+      "input_tokens": 10900,
+      "cached_tokens": 10861,
+      "cache_write_tokens": 36,
+      "uncached_input_tokens": 3,
+      "output_tokens": 44,
+      "reasoning_tokens": 0,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.00010861,
+        "cache_write": 4.5e-06,
+        "output": 2.2e-05,
+        "total": 0.00013541
+      }
+    },
+    {
+      "setup": "with_cache",
+      "document": "p04_harborstitch_quote.html",
+      "request": 2,
+      "model": "gpt-6-luna",
+      "input_tokens": 11396,
+      "cached_tokens": 10897,
+      "cache_write_tokens": 496,
+      "uncached_input_tokens": 3,
+      "output_tokens": 43,
+      "reasoning_tokens": 0,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.00010897,
+        "cache_write": 6.2e-05,
+        "output": 2.15e-05,
+        "total": 0.00019277
+      }
+    },
+    {
+      "setup": "with_cache",
+      "document": "p05_maplemills_quote.pdf",
+      "request": 1,
+      "model": "gpt-6-luna",
+      "input_tokens": 10898,
+      "cached_tokens": 10861,
+      "cache_write_tokens": 34,
+      "uncached_input_tokens": 3,
+      "output_tokens": 42,
+      "reasoning_tokens": 0,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.00010861,
+        "cache_write": 4.25e-06,
+        "output": 2.1e-05,
+        "total": 0.00013416
+      }
+    },
+    {
+      "setup": "with_cache",
+      "document": "p05_maplemills_quote.pdf",
+      "request": 2,
+      "model": "gpt-6-luna",
+      "input_tokens": 11040,
+      "cached_tokens": 10895,
+      "cache_write_tokens": 142,
+      "uncached_input_tokens": 3,
+      "output_tokens": 42,
+      "reasoning_tokens": 0,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.00010895,
+        "cache_write": 1.775e-05,
+        "output": 2.1e-05,
+        "total": 0.000148
+      }
+    },
+    {
+      "setup": "with_cache",
+      "document": "p06_qtextile_quote.pdf",
+      "request": 1,
+      "model": "gpt-6-luna",
+      "input_tokens": 10898,
+      "cached_tokens": 10861,
+      "cache_write_tokens": 34,
+      "uncached_input_tokens": 3,
+      "output_tokens": 42,
+      "reasoning_tokens": 0,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.00010861,
+        "cache_write": 4.25e-06,
+        "output": 2.1e-05,
+        "total": 0.00013416
+      }
+    },
+    {
+      "setup": "with_cache",
+      "document": "p06_qtextile_quote.pdf",
+      "request": 2,
+      "model": "gpt-6-luna",
+      "input_tokens": 11084,
+      "cached_tokens": 10895,
+      "cache_write_tokens": 186,
+      "uncached_input_tokens": 3,
+      "output_tokens": 44,
+      "reasoning_tokens": 0,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.00010895,
+        "cache_write": 2.325e-05,
+        "output": 2.2e-05,
+        "total": 0.0001545
+      }
+    },
+    {
+      "setup": "with_cache",
+      "document": "p07_longwharf_quote.pdf",
+      "request": 1,
+      "model": "gpt-6-luna",
+      "input_tokens": 10898,
+      "cached_tokens": 10861,
+      "cache_write_tokens": 34,
+      "uncached_input_tokens": 3,
+      "output_tokens": 42,
+      "reasoning_tokens": 0,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.00010861,
+        "cache_write": 4.25e-06,
+        "output": 2.1e-05,
+        "total": 0.00013416
+      }
+    },
+    {
+      "setup": "with_cache",
+      "document": "p07_longwharf_quote.pdf",
+      "request": 2,
+      "model": "gpt-6-luna",
+      "input_tokens": 11059,
+      "cached_tokens": 10895,
+      "cache_write_tokens": 161,
+      "uncached_input_tokens": 3,
+      "output_tokens": 82,
+      "reasoning_tokens": 38,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.00010895,
+        "cache_write": 2.013e-05,
+        "output": 4.1e-05,
+        "total": 0.00017038
+      }
+    },
+    {
+      "setup": "with_cache",
+      "document": "p08_chapelst_email.eml",
+      "request": 1,
+      "model": "gpt-6-luna",
+      "input_tokens": 10899,
+      "cached_tokens": 10861,
+      "cache_write_tokens": 35,
+      "uncached_input_tokens": 3,
+      "output_tokens": 43,
+      "reasoning_tokens": 0,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.00010861,
+        "cache_write": 4.37e-06,
+        "output": 2.15e-05,
+        "total": 0.00013479
+      }
+    },
+    {
+      "setup": "with_cache",
+      "document": "p08_chapelst_email.eml",
+      "request": 2,
+      "model": "gpt-6-luna",
+      "input_tokens": 11095,
+      "cached_tokens": 10896,
+      "cache_write_tokens": 196,
+      "uncached_input_tokens": 3,
+      "output_tokens": 42,
+      "reasoning_tokens": 0,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.00010896,
+        "cache_write": 2.45e-05,
+        "output": 2.1e-05,
+        "total": 0.00015476
+      }
+    },
+    {
+      "setup": "with_cache",
+      "document": "p09_westville_email.eml",
+      "request": 1,
+      "model": "gpt-6-luna",
+      "input_tokens": 10899,
+      "cached_tokens": 10861,
+      "cache_write_tokens": 35,
+      "uncached_input_tokens": 3,
+      "output_tokens": 43,
+      "reasoning_tokens": 0,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.00010861,
+        "cache_write": 4.37e-06,
+        "output": 2.15e-05,
+        "total": 0.00013479
+      }
+    },
+    {
+      "setup": "with_cache",
+      "document": "p09_westville_email.eml",
+      "request": 2,
+      "model": "gpt-6-luna",
+      "input_tokens": 11415,
+      "cached_tokens": 10896,
+      "cache_write_tokens": 516,
+      "uncached_input_tokens": 3,
+      "output_tokens": 42,
+      "reasoning_tokens": 0,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.00010896,
+        "cache_write": 6.45e-05,
+        "output": 2.1e-05,
+        "total": 0.00019476
+      }
+    },
+    {
+      "setup": "with_cache",
+      "document": "p10_eastrock_email.eml",
+      "request": 1,
+      "model": "gpt-6-luna",
+      "input_tokens": 10899,
+      "cached_tokens": 10861,
+      "cache_write_tokens": 35,
+      "uncached_input_tokens": 3,
+      "output_tokens": 43,
+      "reasoning_tokens": 0,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.00010861,
+        "cache_write": 4.37e-06,
+        "output": 2.15e-05,
+        "total": 0.00013479
+      }
+    },
+    {
+      "setup": "with_cache",
+      "document": "p10_eastrock_email.eml",
+      "request": 2,
+      "model": "gpt-6-luna",
+      "input_tokens": 11114,
+      "cached_tokens": 10896,
+      "cache_write_tokens": 215,
+      "uncached_input_tokens": 3,
+      "output_tokens": 42,
+      "reasoning_tokens": 0,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.00010896,
+        "cache_write": 2.687e-05,
+        "output": 2.1e-05,
+        "total": 0.00015714
+      }
+    },
+    {
+      "setup": "with_cache",
+      "document": "p11_yorkst_quote.html",
+      "request": 1,
+      "model": "gpt-6-luna",
+      "input_tokens": 10898,
+      "cached_tokens": 10861,
+      "cache_write_tokens": 34,
+      "uncached_input_tokens": 3,
+      "output_tokens": 42,
+      "reasoning_tokens": 0,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.00010861,
+        "cache_write": 4.25e-06,
+        "output": 2.1e-05,
+        "total": 0.00013416
+      }
+    },
+    {
+      "setup": "with_cache",
+      "document": "p11_yorkst_quote.html",
+      "request": 2,
+      "model": "gpt-6-luna",
+      "input_tokens": 11347,
+      "cached_tokens": 10895,
+      "cache_write_tokens": 449,
+      "uncached_input_tokens": 3,
+      "output_tokens": 42,
+      "reasoning_tokens": 0,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.00010895,
+        "cache_write": 5.613e-05,
+        "output": 2.1e-05,
+        "total": 0.00018638
+      }
+    },
+    {
+      "setup": "with_cache",
+      "document": "p12_bluehen_quote.pdf",
+      "request": 1,
+      "model": "gpt-6-luna",
+      "input_tokens": 10897,
+      "cached_tokens": 10861,
+      "cache_write_tokens": 33,
+      "uncached_input_tokens": 3,
+      "output_tokens": 41,
+      "reasoning_tokens": 0,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.00010861,
+        "cache_write": 4.13e-06,
+        "output": 2.05e-05,
+        "total": 0.00013354
+      }
+    },
+    {
+      "setup": "with_cache",
+      "document": "p12_bluehen_quote.pdf",
+      "request": 2,
+      "model": "gpt-6-luna",
+      "input_tokens": 11058,
+      "cached_tokens": 10894,
+      "cache_write_tokens": 161,
+      "uncached_input_tokens": 3,
+      "output_tokens": 41,
+      "reasoning_tokens": 0,
+      "cost_usd": {
+        "fresh_input": 3e-07,
+        "cached_input": 0.00010894,
+        "cache_write": 2.013e-05,
+        "output": 2.05e-05,
+        "total": 0.00014987
+      }
+    }
+  ],
+  "runs": [
+    {
+      "setup": "without_cache",
+      "document": "p01_bluehen_quote.html",
+      "requests": 2,
+      "input_tokens": 22319,
+      "cached_tokens": 0,
+      "cache_write_tokens": 22313,
+      "output_tokens": 81,
+      "reasoning_tokens": 0,
+      "cost_usd": 0.00283023,
+      "seconds": 5.81,
+      "decision": "recommend",
+      "correct": true,
+      "wrong_fields": []
+    },
+    {
+      "setup": "without_cache",
+      "document": "p02_elmcity_quote.html",
+      "requests": 2,
+      "input_tokens": 22331,
+      "cached_tokens": 0,
+      "cache_write_tokens": 22325,
+      "output_tokens": 131,
+      "reasoning_tokens": 45,
+      "cost_usd": 0.00285673,
+      "seconds": 5.8,
+      "decision": "recommend",
+      "correct": false,
+      "wrong_fields": [
+        "unit_price",
+        "decision"
+      ]
+    },
+    {
+      "setup": "without_cache",
+      "document": "p03_ivyprint_catalog.html",
+      "requests": 2,
+      "input_tokens": 22332,
+      "cached_tokens": 0,
+      "cache_write_tokens": 22326,
+      "output_tokens": 84,
+      "reasoning_tokens": 0,
+      "cost_usd": 0.00283335,
+      "seconds": 3.83,
+      "decision": "do_not_recommend",
+      "correct": true,
+      "wrong_fields": []
+    },
+    {
+      "setup": "without_cache",
+      "document": "p04_harborstitch_quote.html",
+      "requests": 2,
+      "input_tokens": 22350,
+      "cached_tokens": 0,
+      "cache_write_tokens": 22344,
+      "output_tokens": 87,
+      "reasoning_tokens": 0,
+      "cost_usd": 0.0028371,
+      "seconds": 5.45,
+      "decision": "recommend",
+      "correct": true,
+      "wrong_fields": []
+    },
+    {
+      "setup": "without_cache",
+      "document": "p05_maplemills_quote.pdf",
+      "requests": 2,
+      "input_tokens": 22002,
+      "cached_tokens": 0,
+      "cache_write_tokens": 21996,
+      "output_tokens": 84,
+      "reasoning_tokens": 0,
+      "cost_usd": 0.0027921,
+      "seconds": 4.32,
+      "decision": "do_not_recommend",
+      "correct": true,
+      "wrong_fields": []
+    },
+    {
+      "setup": "without_cache",
+      "document": "p06_qtextile_quote.pdf",
+      "requests": 2,
+      "input_tokens": 22041,
+      "cached_tokens": 0,
+      "cache_write_tokens": 22035,
+      "output_tokens": 86,
+      "reasoning_tokens": 0,
+      "cost_usd": 0.00279797,
+      "seconds": 3.99,
+      "decision": "do_not_recommend",
+      "correct": true,
+      "wrong_fields": []
+    },
+    {
+      "setup": "without_cache",
+      "document": "p07_longwharf_quote.pdf",
+      "requests": 2,
+      "input_tokens": 22015,
+      "cached_tokens": 0,
+      "cache_write_tokens": 22009,
+      "output_tokens": 84,
+      "reasoning_tokens": 0,
+      "cost_usd": 0.00279372,
+      "seconds": 3.39,
+      "decision": "recommend",
+      "correct": false,
+      "wrong_fields": [
+        "lead_time_days",
+        "decision"
+      ]
+    },
+    {
+      "setup": "without_cache",
+      "document": "p08_chapelst_email.eml",
+      "requests": 2,
+      "input_tokens": 22053,
+      "cached_tokens": 0,
+      "cache_write_tokens": 22047,
+      "output_tokens": 85,
+      "reasoning_tokens": 0,
+      "cost_usd": 0.00279897,
+      "seconds": 3.8,
+      "decision": "recommend",
+      "correct": true,
+      "wrong_fields": []
+    },
+    {
+      "setup": "without_cache",
+      "document": "p09_westville_email.eml",
+      "requests": 2,
+      "input_tokens": 22372,
+      "cached_tokens": 0,
+      "cache_write_tokens": 22366,
+      "output_tokens": 85,
+      "reasoning_tokens": 0,
+      "cost_usd": 0.00283885,
+      "seconds": 3.61,
+      "decision": "do_not_recommend",
+      "correct": true,
+      "wrong_fields": []
+    },
+    {
+      "setup": "without_cache",
+      "document": "p10_eastrock_email.eml",
+      "requests": 2,
+      "input_tokens": 22078,
+      "cached_tokens": 0,
+      "cache_write_tokens": 22072,
+      "output_tokens": 85,
+      "reasoning_tokens": 0,
+      "cost_usd": 0.0028021,
+      "seconds": 4.96,
+      "decision": "recommend",
+      "correct": true,
+      "wrong_fields": []
+    },
+    {
+      "setup": "without_cache",
+      "document": "p11_yorkst_quote.html",
+      "requests": 2,
+      "input_tokens": 22303,
+      "cached_tokens": 0,
+      "cache_write_tokens": 22297,
+      "output_tokens": 84,
+      "reasoning_tokens": 0,
+      "cost_usd": 0.00282972,
+      "seconds": 5.81,
+      "decision": "do_not_recommend",
+      "correct": true,
+      "wrong_fields": []
+    },
+    {
+      "setup": "without_cache",
+      "document": "p12_bluehen_quote.pdf",
+      "requests": 2,
+      "input_tokens": 22013,
+      "cached_tokens": 0,
+      "cache_write_tokens": 22007,
+      "output_tokens": 82,
+      "reasoning_tokens": 0,
+      "cost_usd": 0.00279247,
+      "seconds": 3.6,
+      "decision": "recommend",
+      "correct": false,
+      "wrong_fields": [
+        "unit_price",
+        "decision"
+      ]
+    },
+    {
+      "setup": "with_cache",
+      "document": "p01_bluehen_quote.html",
+      "requests": 2,
+      "input_tokens": 22261,
+      "cached_tokens": 21755,
+      "cache_write_tokens": 500,
+      "output_tokens": 81,
+      "reasoning_tokens": 0,
+      "cost_usd": 0.00032115,
+      "seconds": 3.32,
+      "decision": "recommend",
+      "correct": true,
+      "wrong_fields": []
+    },
+    {
+      "setup": "with_cache",
+      "document": "p02_elmcity_quote.html",
+      "requests": 2,
+      "input_tokens": 22275,
+      "cached_tokens": 21756,
+      "cache_write_tokens": 513,
+      "output_tokens": 84,
+      "reasoning_tokens": 0,
+      "cost_usd": 0.00032429,
+      "seconds": 4.92,
+      "decision": "do_not_recommend",
+      "correct": true,
+      "wrong_fields": []
+    },
+    {
+      "setup": "with_cache",
+      "document": "p03_ivyprint_catalog.html",
+      "requests": 2,
+      "input_tokens": 22268,
+      "cached_tokens": 21756,
+      "cache_write_tokens": 506,
+      "output_tokens": 84,
+      "reasoning_tokens": 0,
+      "cost_usd": 0.00032341,
+      "seconds": 3.55,
+      "decision": "do_not_recommend",
+      "correct": true,
+      "wrong_fields": []
+    },
+    {
+      "setup": "with_cache",
+      "document": "p04_harborstitch_quote.html",
+      "requests": 2,
+      "input_tokens": 22296,
+      "cached_tokens": 21758,
+      "cache_write_tokens": 532,
+      "output_tokens": 87,
+      "reasoning_tokens": 0,
+      "cost_usd": 0.00032818,
+      "seconds": 4.19,
+      "decision": "recommend",
+      "correct": true,
+      "wrong_fields": []
+    },
+    {
+      "setup": "with_cache",
+      "document": "p05_maplemills_quote.pdf",
+      "requests": 2,
+      "input_tokens": 21938,
+      "cached_tokens": 21756,
+      "cache_write_tokens": 176,
+      "output_tokens": 84,
+      "reasoning_tokens": 0,
+      "cost_usd": 0.00028216,
+      "seconds": 4.98,
+      "decision": "do_not_recommend",
+      "correct": true,
+      "wrong_fields": []
+    },
+    {
+      "setup": "with_cache",
+      "document": "p06_qtextile_quote.pdf",
+      "requests": 2,
+      "input_tokens": 21982,
+      "cached_tokens": 21756,
+      "cache_write_tokens": 220,
+      "output_tokens": 86,
+      "reasoning_tokens": 0,
+      "cost_usd": 0.00028866,
+      "seconds": 3.86,
+      "decision": "do_not_recommend",
+      "correct": true,
+      "wrong_fields": []
+    },
+    {
+      "setup": "with_cache",
+      "document": "p07_longwharf_quote.pdf",
+      "requests": 2,
+      "input_tokens": 21957,
+      "cached_tokens": 21756,
+      "cache_write_tokens": 195,
+      "output_tokens": 124,
+      "reasoning_tokens": 38,
+      "cost_usd": 0.00030453,
+      "seconds": 4.56,
+      "decision": "recommend",
+      "correct": false,
+      "wrong_fields": [
+        "lead_time_days",
+        "decision"
+      ]
+    },
+    {
+      "setup": "with_cache",
+      "document": "p08_chapelst_email.eml",
+      "requests": 2,
+      "input_tokens": 21994,
+      "cached_tokens": 21757,
+      "cache_write_tokens": 231,
+      "output_tokens": 85,
+      "reasoning_tokens": 0,
+      "cost_usd": 0.00028954,
+      "seconds": 4.08,
+      "decision": "recommend",
+      "correct": true,
+      "wrong_fields": []
+    },
+    {
+      "setup": "with_cache",
+      "document": "p09_westville_email.eml",
+      "requests": 2,
+      "input_tokens": 22314,
+      "cached_tokens": 21757,
+      "cache_write_tokens": 551,
+      "output_tokens": 85,
+      "reasoning_tokens": 0,
+      "cost_usd": 0.00032954,
+      "seconds": 4.2,
+      "decision": "do_not_recommend",
+      "correct": true,
+      "wrong_fields": []
+    },
+    {
+      "setup": "with_cache",
+      "document": "p10_eastrock_email.eml",
+      "requests": 2,
+      "input_tokens": 22013,
+      "cached_tokens": 21757,
+      "cache_write_tokens": 250,
+      "output_tokens": 85,
+      "reasoning_tokens": 0,
+      "cost_usd": 0.00029192,
+      "seconds": 4.06,
+      "decision": "recommend",
+      "correct": true,
+      "wrong_fields": []
+    },
+    {
+      "setup": "with_cache",
+      "document": "p11_yorkst_quote.html",
+      "requests": 2,
+      "input_tokens": 22245,
+      "cached_tokens": 21756,
+      "cache_write_tokens": 483,
+      "output_tokens": 84,
+      "reasoning_tokens": 0,
+      "cost_usd": 0.00032053,
+      "seconds": 5.82,
+      "decision": "do_not_recommend",
+      "correct": true,
+      "wrong_fields": []
+    },
+    {
+      "setup": "with_cache",
+      "document": "p12_bluehen_quote.pdf",
+      "requests": 2,
+      "input_tokens": 21955,
+      "cached_tokens": 21755,
+      "cache_write_tokens": 194,
+      "output_tokens": 82,
+      "reasoning_tokens": 0,
+      "cost_usd": 0.0002834,
+      "seconds": 4.87,
+      "decision": "recommend",
+      "correct": false,
+      "wrong_fields": [
+        "unit_price",
+        "decision"
+      ]
+    }
+  ]
+}

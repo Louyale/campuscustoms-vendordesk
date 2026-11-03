@@ -1,0 +1,13 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local environment
+.venv/
+__pycache__/
+*.pyc
+
+# Logs and archives
+*.log
+*.zip

@@ -1,0 +1,44 @@
+{
+  "document": "data/exam_docs/e10_email.eml",
+  "report": {
+    "vendor": "East Rock Ceramics",
+    "sku": "CC-GL-006",
+    "unit_price": 8.48,
+    "lead_time_days": 12,
+    "min_order": 144,
+    "decision": "recommend",
+    "reason": "All four checks pass: East Rock Ceramics is approved, $8.48 is at or below the max unit cost, 12 days is within 21, and 144 units is within 600."
+  },
+  "usage": {
+    "model": "gpt-6-luna",
+    "setup": "with_cache",
+    "requests": 2,
+    "input_tokens": 22200,
+    "cached_tokens": 22034,
+    "cache_write_tokens": 160,
+    "output_tokens": 68,
+    "reasoning_tokens": 0,
+    "cost_usd": 0.00027494,
+    "seconds": 0.24,
+    "calls": [
+      {
+        "request": 1,
+        "input_tokens": 11029,
+        "cached_tokens": 11008,
+        "cache_write_tokens": 18,
+        "output_tokens": 26,
+        "reasoning_tokens": 0,
+        "cost_usd": 0.00012563
+      },
+      {
+        "request": 2,
+        "input_tokens": 11171,
+        "cached_tokens": 11026,
+        "cache_write_tokens": 142,
+        "output_tokens": 42,
+        "reasoning_tokens": 0,
+        "cost_usd": 0.00014931
+      }
+    ]
+  }
+}
