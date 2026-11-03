@@ -459,6 +459,10 @@ The Problem 2 groundwork (`vendor_desk/`) was folded into these four files, and 
 
 The remaining risks are the hidden exam answer key, how the grader judges the page design, and submitting the URL on Canvas (my step).
 
+> https://github.com/Louyale/campuscustoms-vendordesk is what i'll submit
+
+**Result:** Confirmed: that's the public HW6 repo, verified live, and it's the URL to submit on Canvas.
+
 ---
 
 ## Appendix: setup prompts (before Problem 1)
